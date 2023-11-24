@@ -10,4 +10,8 @@
     <ProjectReference Include="..\PharmacyCms.BLL\PharmacyCms.BLL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
 </Project>
