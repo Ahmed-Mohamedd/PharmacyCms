@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary"> Medicines List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Medicine" asp-action="Create" class="btn btn-outline-primary ">
+                <i class="bi bi-patch-plus"></i> &nbsp; Add New Medicine
+            </a>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+
