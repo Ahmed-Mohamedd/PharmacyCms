@@ -1,4 +1,4 @@
-namespace PharmacyCms.PL.Models
+namespace Pharmacy.PL.Models
 {
     public class ErrorViewModel
     {

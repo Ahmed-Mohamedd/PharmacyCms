@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+
+
+<partial name="_Notification" />
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary"> Categories List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Category" asp-action="Create" class="btn btn-outline-primary ">
+                <i class="bi bi-patch-plus"></i> &nbsp; Add New Category
+            </a>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+        All Categories
+    </div>
+    <div class="card-body">
+        <table id="categoriesData">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Creation Time</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts
+    {
+    <script src="~/js/Dashboard.js"></script>
+}
+

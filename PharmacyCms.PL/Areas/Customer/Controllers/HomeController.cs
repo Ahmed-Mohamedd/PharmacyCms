@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PharmacyCms.PL.Models;
+using Pharmacy.PL.Models;
 using System.Diagnostics;
 
-namespace PharmacyCms.PL.Controllers
+namespace Pharmacy.PL.Areas.Customer.Controllers
 {
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

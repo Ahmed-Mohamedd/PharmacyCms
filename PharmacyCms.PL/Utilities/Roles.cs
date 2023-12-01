@@ -1,8 +1,8 @@
-﻿namespace PharmacyCms.PL.Utilities
+﻿namespace Pharmacy.PL.Utilities
 {
-    public static class Roles
+    public class Roles
     {
-        public static string Customer { get; private set; } = "Customer";
-        public static string Admin { get; private set; } = "Admin";
+        public static string AdminRole { get; } = "Admin";
+        public static string CustomerRole { get; } = "Customer";
     }
 }
